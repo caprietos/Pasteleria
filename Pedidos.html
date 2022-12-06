@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html  lang = "en" >
+<head> 
+    <meta charset= "UTF-8">
+    <meta name = "viewport" content ="width device-width, initial scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <title>Pedidos.</title>
+</head>
+<body>
+   <body class="bgcolor" >  
+   <header>
+       <nav class="headerNav">
+            <a Class="NavINICIO" href="inicio.html">INICIO</a> 
+            <a class="NavPRODUCTOS" href="Productos.html">PRODUCTOS</a>
+            <a class="NavPEDIDOS" href="Pedidos.html">PEDIDOS</a> 
+       </nav>               
+   </header>        
+   <main>
+    
+    <div class="nombres">
+        <h2 class="tituloA"> Pastelería ancestral</h2>
+        <h2 class="tituloB"> especializada.</h2>   
+  </div>
+
+    <div class="imagppa2">
+      <img src="./Imagen 16.png"width="512" heigth="300">
+    </div>
+                
+        <h3 id="titdatos">Llena los datos y realiza tu compra</h3> 
+
+        <div class="Formulario">        
+          <input type="text" placeholder="Nombre" autofocus><br>
+          <input type="text" placeholder="Apellido"><br>
+          <input type="tel" placeholder="Teléfono"><br>
+          <input type="dir" placeholder="Dirección"><br>
+          <input type="email" placeholder="Email"><br>
+          <input type="city" placeholder="Ciudad"><br><br>
+          <label style="color:#EF5350" for="itorta">Tipo Torta:</label>
+          <input style="color:#EF5350" list="Torta">
+          <datalist id="Torta">
+            <option>Torta 1</option>
+            <option>Torta 2</option>
+            <option>Torta 3</option>
+            <option>Torta 4</option>
+           </datalist><br>
+
+          <label style="color:#EF5350" for="inumber">Cantidad:</label>
+          <input id="inumber" type ="number" name="num">
+          <div class="envter">
+             <input class="Enviar" type="submit" value="Enviar">    
+             <input class="Eliminar" type="reset" value="Eliminar">
+            </div>
+        
+        </div>
+
+        <h3 id="confirm"> Confirma tu compra </h3>
+
+        <div class="pagos" >
+             <img src="Imagen17.png"widht="90" height ="40">
+             <img src="Imagen18.png"widht="90" height ="40"><br> 
+        </div>
+
+        <a class="Bvolver" href="Productos.html"><img src="Botón Volver.png"></a> 
+
+        <section class="redes2">            
+            <img src="./Imagen24.png" widht="50" height ="50" hspace="20px">
+            <img src="twwit_clipped_rev_1.png" widht="50" height ="50" hspace="40px">
+            <img src="Imagen5_clipped_rev_1.png" widht="50" height ="50" hspace="40px">
+        </section> 
+
+    </main>        
+    <footer>        
+        <h2 id="carlos"> Carlos A Prieto S. </h2>
+    </footer>
+</body>
+</html>

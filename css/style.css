@@ -1,0 +1,300 @@
+ body{
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;   
+    
+    
+}
+
+.bgcolor{
+    background:linear-gradient(to top, black, #F9A825 )
+}
+
+header{
+    width: 100%;
+    height:10vh ;
+    display:flex;
+    justify-content: center;     
+    background-color: black;    
+} 
+
+.headerNav{
+    width:50%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center
+     
+}
+
+.headerNav a{
+    color:black;
+    background:#F9A825;
+text-decoration: none; 
+font-size: 2rem;
+}
+
+.NavPEDIDOS{
+    width:25%;
+    padding: 10px 0 10px 0 ;
+    border-radius:  5px 5px 5px 5px;
+    text-align: center;    
+}
+
+.NavPEDIDOS:hover {
+    background-color: white;
+}
+
+.NavPRODUCTOS{
+    width:25%;
+    padding: 10px 0 10px 0 ;
+    border-radius:  5px 5px 5px 5px;
+    text-align: center;    
+}
+
+.NavPRODUCTOS:hover {
+    background-color: white;
+}
+
+.NavINICIO{
+    width:25%;
+    padding: 10px 0 10px 0 ;
+    border-radius:  5px 5px 5px 5px;
+    text-align: center;    
+}
+
+.NavINICIO:hover {
+    background-color: white;
+}
+
+#titulo{
+    width: 100%;
+    color:#f00f0b;
+    text-align:center;  
+    font-size: 34px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  
+}
+
+.SectionOne{
+    position: relative;
+}
+
+
+.titulo2{
+position: absolute;
+top: -12px;
+left:170px;
+width:100%;
+display: flex;
+justify-content: center;
+color:#f00f0b;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+
+.imagppal{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}  
+
+
+    
+#parrafo1{
+    color:#f00f0b;
+    width:100%;
+    text-align:center;  
+    
+}
+
+
+.redes{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.nombres{
+    width: 100%;
+    color:#f00f0b;
+    text-align:center;  
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    margin-bottom: -25px;   
+}
+
+.tituloA{
+    margin-bottom: -35px;
+    margin-right: 190px;
+}
+.tituloB{
+    margin-right:285px; ;
+}
+#video{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+       
+}  
+
+
+
+#Ofertas{
+    width: 100%;
+    color:#EF5350;
+    text-align:center;  
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}    
+
+#container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:#EF5350;
+    font-size: 15px;  
+    margin-top: 40px;  
+}
+.img1{
+    margin-right:80px;
+    margin-bottom: -10px;
+}
+.img2{
+    margin-bottom: -10px;
+}
+
+#container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:#EF5350;
+    font-size: 15px;  
+    margin-top: 10px;  
+}
+.img3{
+    margin-right:80px;
+    margin-bottom: -10px;
+}
+
+.conteiner{
+    margin-bottom: 40px;
+}
+
+.precio1{
+    margin-bottom: -15px;
+}
+
+.precio2{
+    margin-bottom: -15px;
+}
+
+.precio3{
+    margin-bottom: -15px;
+}
+.precio4{
+    margin-bottom: -15px;
+}
+.img4{
+    margin-bottom: -10px;
+}
+
+.tramitar{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+     
+}
+
+.redes2{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px; 
+}
+
+.imagppa2{
+    width: 100%;
+    display:flex;
+    justify-content: center; 
+}
+
+#titdatos{
+    width: 100%;
+    color:#EF5350;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.Formulario{
+    width: 100%;
+    display:grid;
+    justify-content: center;     
+    margin-top: 30px;  
+}
+
+.envter{
+    margin-top: 20px;
+}
+
+#confirm{
+    width: 100%;
+    color:#EF5350;
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom:10;
+}
+.pagos{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Bvolver{
+    width:100%;    
+    display:flex;
+    justify-content: center;
+    margin-top:-60px ;
+         
+}
+#carlos{
+    width: 100%;
+    color:white;
+    text-align:center;
+    margin-top: 30px;
+}
+
+
+@media (max-width:1024px){
+    #titulo{
+        
+        color:azure;
+                
+    }
+}
+
+@media all and (max-width:468px){
+    #container{
+        
+        float: center;
+        width: 20%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width:460px){
+    #container2{
+        
+        float: center;
+        width: 20%;
+                
+    }
+}
+
+
